@@ -1,0 +1,6 @@
+str = input()
+arr = str.split(" ")
+x = 0
+for i in arr:
+    x += len(i)
+print(x)
